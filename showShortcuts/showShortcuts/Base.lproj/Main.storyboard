@@ -689,6 +689,9 @@
                             <constraint firstItem="Kcg-gz-Izm" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="gvi-eI-V1i"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textField" destination="Kcg-gz-Izm" id="yFq-UV-T1l"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
