@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF5CBB141CB16E7000AC7DB8 /* KeyCodeToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5CBB131CB16E7000AC7DB8 /* KeyCodeToString.swift */; };
 		CFEFB2691CB1652B00D05E88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFB2681CB1652B00D05E88 /* AppDelegate.swift */; };
 		CFEFB26B1CB1652B00D05E88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFB26A1CB1652B00D05E88 /* ViewController.swift */; };
 		CFEFB26D1CB1652B00D05E88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEFB26C1CB1652B00D05E88 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF5CBB131CB16E7000AC7DB8 /* KeyCodeToString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyCodeToString.swift; path = ../KeyCodeToString.swift; sourceTree = "<group>"; };
 		CFEFB2651CB1652B00D05E88 /* showShortcuts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = showShortcuts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFEFB2681CB1652B00D05E88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFEFB26A1CB1652B00D05E88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				CFEFB2681CB1652B00D05E88 /* AppDelegate.swift */,
 				CFEFB26A1CB1652B00D05E88 /* ViewController.swift */,
+				CF5CBB131CB16E7000AC7DB8 /* KeyCodeToString.swift */,
 				CFEFB26C1CB1652B00D05E88 /* Assets.xcassets */,
 				CFEFB26E1CB1652B00D05E88 /* Main.storyboard */,
 				CFEFB2711CB1652B00D05E88 /* Info.plist */,
@@ -131,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF5CBB141CB16E7000AC7DB8 /* KeyCodeToString.swift in Sources */,
 				CFEFB26B1CB1652B00D05E88 /* ViewController.swift in Sources */,
 				CFEFB2691CB1652B00D05E88 /* AppDelegate.swift in Sources */,
 			);
@@ -275,6 +279,7 @@
 				CFEFB2761CB1652B00D05E88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
